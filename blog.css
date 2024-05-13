@@ -1,0 +1,69 @@
+html{
+    overflow-x: hidden;
+}
+
+.nav{
+    height: 80%;
+    width: 100%;
+}
+
+.background-nav{
+    background-color: #9797ff;
+    color: white;
+}
+
+.navbar-pink a{
+    color: brown;
+}
+
+.navar-pink a:hover{
+    color: aqua;
+}
+
+.active-link{
+    color: white !important; 
+    font-weight: 900;
+}
+
+.bg-pink{
+    background:linear-gradient(#663ED3, #E720CD);;
+}
+
+
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.animation{
+    padding: 72px 0px; 
+    white-space:nowrap;
+}
+
+.movimiento-slide{
+display: inline-block;
+animation: 20s slide infinite linear;
+}
+
+.movimiento-slide img{
+    margin: 0px 15px;
+    border-radius: 25px;
+}
+
+
+
+/* marcas,precios,categorias y pais */
+
+ /* .menu-color a:hover{
+    color: brown;
+} */
+
+/* .menu-color_active{
+    color: brown;
+    font-weight: 800;
+} */
